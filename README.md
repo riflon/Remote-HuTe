@@ -5,6 +5,9 @@ DHT22 sensor with android app using classic UDP packets for reading temperature 
 I spent some free time experimenting with Arduino. The idea was to implement a basic temperature & humidity station using the classic DHT22 sensor.
 Going a bit further, I developed an Android application which uses UDP packets to communicate with the Arduino. Yeap! UDP packets are small and server implementation is simple. Ok!, so the client send a string chosen by the user as a key, and Arduino only responds if the key is correct (**THIS IS NOT A SERIOUS SECURITY MECHANISM, IT'S JUST SECURITY BY OBSCURITY AND IS FAR FAR AWAY FROM BEING SECURE. PLEASE KEEP IN MIND, THIS IS A SMALL ARDUINO PROJECT NOT AND INDUSTRIAL IMPLEMENTATION OF A REACTOR SENSOR**).
 
+## Diagram ##
+
+![alt text](https://github.com/riflon/Remote-HuTe/blob/develop/Fritzing%20-%20Design/Remote%20HuTe_bb.png "DHT22 sensor prototype sensor")
 
 ## Installation and Usage ##
 Testing this project is really easy. You need to follow these steps:
